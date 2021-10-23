@@ -1,0 +1,49 @@
+
+@mixin titulo-black {
+    font-size: 40px;
+    color: $color-secundary;
+    font-weight: 400;
+    @media screen and (max-width:700px) {
+        font-size: 30px;
+    }
+}
+
+@mixin titulo-2-black {
+    font-size: 20px;
+    color: $color-secundary;
+    line-height: 25px;
+    @media screen and (max-width:700px) {
+        font-size: 20px;
+    }
+}
+
+@mixin subtitulo-black {
+    text-align: center;
+    font-size: 16px;
+    color: $color-secundary;
+    line-height: 30px;
+    @media screen and (max-width:700px) {
+        font-size: 16px;
+    }
+}
+
+//Blancos
+
+@mixin titulo-white {
+    font-size: 50px;
+    color: white  !important;
+    font-weight: 400;
+    @media screen and (max-width:700px) {
+        font-size: 40px;
+    }
+}
+
+@mixin subtitulo-white {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 30px;
+    @media screen and (max-width:700px) {
+        font-size: 16px;
+    }
+}
